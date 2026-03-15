@@ -10,15 +10,14 @@ hr.solid{
     height:2px;
     background-color: black;
 }
-li{
+.courses li{
     display:inline-block;
     background-color: #da9797;
     padding: 10px;
 }  
-ul :hover{
+.courses ul :hover{
     background-color: #95b1c5;
 }
-
 
 #sidebar.opened {
   display: block;
@@ -35,13 +34,10 @@ ul :hover{
   background: #fff;
   border: 1px solid #ccc;
   outline: none;
-
   font-size: 20px;
   font-weight: bold;
-
   border-radius: 4px;
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-
   transition: background 0.1s ease-out;
   cursor: pointer;
   display:block;
@@ -56,7 +52,6 @@ ul :hover{
 }
 
 aside {
-  
   background-image:url(background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +60,6 @@ aside {
   left: 0;
   height: 100vh;    
   z-index: 100;    
-
   width: 0px;
   overflow: hidden;
   transition: 0.3s ease width;
@@ -86,13 +80,12 @@ aside > div > div {
   width: 250px;
 }
 
-
 aside ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
   font-size: 1rem;
+  
 }
 
 aside ul > li {
@@ -103,6 +96,14 @@ aside ul > li a {
   color: #524e4e;
   transition: color 0.1s ease-in;
   cursor: pointer;
+}
+aside li{
+  display:inline-block;
+  background-color: #da9797;
+  padding: 10px;
+}
+aside li:hover{
+  background-color: #95b1c5 ;
 }
 
 aside ul > li a:hover {
@@ -115,7 +116,6 @@ aside ul > li a:hover {
 }
 
 .box {
-  
   width: 400px;
   height: 100px;
   display: flex;               
@@ -155,32 +155,22 @@ form{
     flex-wrap:wrap;
     row-gap: 15px;
 }
-h3{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+
+.hobbieslist{
+  font-size: 15px;
+
 }
-.Eating{
-    position: absolute;
-    top:350px;
-    left: 490px;
+.projects a{
+  color:#524e4e;
+  background-color:#da9797;
+  position: absolute;
+  bottom: 180 px;
+  left: 20px;
 }
-.BeingCreative{
-    position: absolute;
-    top:550px;
-    left: 490px;
+.projects a:hover{
+  background-color:#95b1c5;
+  transform: scale(1.2);
 }
-.Exploring{
-    position: absolute;
-    top:440px;
-    left: 1050px;
-}
-.WO{
-    position: absolute;
-    top:375px;
-    left: 90px;
-}
-.Music{
-    position: absolute;
-    top:435px;
-    left: 90px;
-}
+
+
+
