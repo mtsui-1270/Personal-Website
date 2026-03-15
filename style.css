@@ -19,33 +19,7 @@ ul :hover{
     background-color: #95b1c5;
 }
 
-.home{
-    position:absolute;
-    top:70px;
-    left:420px;
-}
 
-.box {
-  
-  width: 400px;
-  height: 100px;
-  display: flex;               
-  justify-content: center;      
-  align-items: center;         
-  text-align: left;    
-        
-}
-.image{
-    position:absolute;
-    right: 320px;
-    top: 100px;
-}
-form{
-    position: absolute;
-    top: 300px;
-    left: 430px;
-  
-}
 #sidebar.opened {
   display: block;
 }
@@ -134,13 +108,33 @@ aside ul > li a {
 aside ul > li a:hover {
   color: rgb(73, 81, 94);
 }
+.home{
+    position:absolute;
+    top:70px;
+    left:420px;
+}
 
-
-
-
-
-
-
+.box {
+  
+  width: 400px;
+  height: 100px;
+  display: flex;               
+  justify-content: center;      
+  align-items: center;         
+  text-align: left;    
+        
+}
+.image{
+    position:absolute;
+    right: 220px;
+    top: 100px;
+}
+form{
+    position: absolute;
+    top: 300px;
+    left: 430px;
+  
+}
 .courses{
     text-align: center;
 }
