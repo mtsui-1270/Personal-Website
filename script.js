@@ -7,7 +7,8 @@ window.addEventListener('DOMContentLoaded', () => {
         if (sidebar.classList.contains("opened")) {
             sidebar.classList.remove("opened");
             sidebarButton.innerText = '››';
-        } else {
+        } 
+        else {
             sidebar.classList.add("opened");
             sidebarButton.innerText = '‹‹';
         }
