@@ -1,4 +1,4 @@
-// This waits for the page to load
+
 window.addEventListener('DOMContentLoaded', () => {
     const sidebarButton = document.getElementById("sidebar-button");
     const sidebar = document.getElementById("sidebar");
